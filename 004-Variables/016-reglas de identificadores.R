@@ -1,0 +1,7 @@
+nombre = "Jose Vicente"
+minombre = "Jose Vicente"
+mi_nombre = "Jose Vicente"
+miNombre = "Jose Vicente"
+miNombre2 = "Jose Vicente"
+mi2Nombre = "Jose Vicente"
+_miNombre = "Jose Vicente"
