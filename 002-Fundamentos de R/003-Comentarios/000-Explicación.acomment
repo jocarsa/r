@@ -1,0 +1,26 @@
+¡Claro! Los comentarios en R son segmentos de texto que no se ejecutan como código, pero que sirven para hacer anotaciones, explicaciones o marcar secciones dentro de tu script. Los comentarios son útiles para hacer el código más legible y comprensible para ti y para otros que lean tu código en el futuro.
+
+En R, existen dos formas de escribir comentarios:
+
+### 1. Comentarios de una línea:
+
+Los comentarios de una línea se inician con el símbolo `#` y continúan hasta el final de esa línea. Todo lo que sigue después de `#` en esa línea se trata como un comentario y no se ejecuta como código.
+
+Ejemplo:
+
+```R
+# Este es un comentario de una línea en R.
+x <- 10  # Esta línea asigna el valor 10 a la variable x.
+```
+
+### 2. Comentarios de varias líneas:
+
+En R, no existe una sintaxis específica para comentarios de varias líneas como en algunos otros lenguajes de programación. Sin embargo, puedes usar `#` al principio de cada línea para crear un comentario que abarque varias líneas, como se muestra en el siguiente ejemplo:
+
+```R
+# Este es un comentario
+# que abarca varias líneas
+# en R utilizando el símbolo #
+```
+
+Usar comentarios adecuadamente es una práctica recomendada para documentar tu código. Puedes incluir información sobre la lógica detrás de una operación, explicaciones sobre ciertas decisiones de código o simplemente notas para ti mismo o para otros que lean tu código en el futuro. Esto puede facilitar la comprensión y mantenimiento del código a largo plazo.

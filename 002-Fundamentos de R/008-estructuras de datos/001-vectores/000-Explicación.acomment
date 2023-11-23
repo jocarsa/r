@@ -1,0 +1,57 @@
+En R, un vector es una estructura de datos fundamental que almacena una secuencia ordenada de elementos del mismo tipo, ya sean números, caracteres, lógicos o factores. Los vectores pueden ser de longitud uno o más y se utilizan ampliamente para realizar operaciones matemáticas, manipular datos y realizar análisis.
+
+### Creación de vectores en R:
+
+#### Usando la función `c()` (combine):
+
+Se utiliza la función `c()` para combinar elementos y crear un vector.
+
+- **Vector numérico:**
+  ```R
+  # Vector numérico
+  numeros <- c(1, 2, 3, 4, 5)
+  ```
+
+- **Vector de caracteres:**
+  ```R
+  # Vector de caracteres
+  nombres <- c("Juan", "María", "Pedro")
+  ```
+
+#### Mediante la función `seq()` (sequence) o `:` (operador de secuencia):
+
+- **Crear secuencias numéricas:**
+  ```R
+  # Secuencia del 1 al 10
+  secuencia <- 1:10
+
+  # Secuencia personalizada
+  secuencia_personalizada <- seq(from = 1, to = 10, by = 2)
+  ```
+
+### Operaciones con vectores:
+
+#### Acceso a elementos:
+
+- Para acceder a elementos específicos de un vector, se utiliza su índice entre corchetes `[ ]`.
+
+#### Operaciones matemáticas:
+
+- Los vectores permiten realizar operaciones matemáticas elemento por elemento.
+
+### Ejemplo de operaciones con vectores:
+
+```R
+# Creación de vectores
+vector1 <- c(1, 2, 3, 4, 5)
+vector2 <- c(6, 7, 8, 9, 10)
+
+# Acceso a elementos
+primer_elemento <- vector1[1]  # Obtiene el primer elemento del vector1
+
+# Operaciones matemáticas entre vectores
+suma_vectores <- vector1 + vector2  # Suma elemento a elemento
+producto_escalar <- sum(vector1 * vector2)  # Producto escalar
+```
+
+Los vectores son una estructura de datos fundamental en R y son útiles para almacenar y manipular datos de una manera eficiente, realizando operaciones sobre conjuntos de elementos de manera sencilla y rápida.

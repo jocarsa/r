@@ -1,0 +1,40 @@
+La anidación de estructuras de control en R implica colocar una estructura de control dentro de otra. Esta técnica es útil cuando se necesita realizar una lógica más compleja, que requiere evaluar múltiples condiciones o ejecutar bucles dentro de otros bucles.
+
+Por ejemplo, se pueden anidar bucles `for`, `while` o estructuras condicionales `if-else` dentro de otras estructuras. Esto permite crear flujos de ejecución más elaborados para abordar situaciones específicas.
+
+### Ejemplo de anidación de estructuras de control:
+
+#### Anidación de bucles:
+
+```R
+# Ejemplo de anidación de bucles for
+for (i in 1:3) {
+  for (j in 1:2) {
+    print(paste("i:", i, "- j:", j))
+  }
+}
+```
+
+En este ejemplo, se utiliza un bucle `for` dentro de otro bucle `for`. Para cada iteración del bucle exterior (`i`), se ejecuta el bucle interior (`j`). Esto generará la salida de todas las combinaciones posibles de `i` y `j`.
+
+#### Anidación de estructuras condicionales:
+
+```R
+# Ejemplo de anidación de estructuras condicionales if-else
+edad <- 25
+ingresos <- 30000
+
+if (edad >= 18) {
+  if (ingresos >= 25000) {
+    print("Eres mayor de edad y tienes ingresos suficientes")
+  } else {
+    print("Eres mayor de edad, pero tus ingresos no son suficientes")
+  }
+} else {
+  print("Eres menor de edad")
+}
+```
+
+En este ejemplo, se anidan estructuras condicionales `if-else`. Primero se verifica si la edad es mayor o igual a 18 y, si es así, se evalúa si los ingresos son mayores o iguales a 25000. Dependiendo de las condiciones, se imprime un mensaje correspondiente.
+
+La anidación de estructuras de control puede volverse compleja y difícil de seguir si se realiza en exceso. Es importante mantener la legibilidad del código al anidar estructuras, para facilitar su comprensión y mantenimiento.

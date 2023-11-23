@@ -1,0 +1,54 @@
+Los dataframes son estructuras de datos fundamentales en R que representan conjuntos de datos tabulares, similares a una tabla de base de datos o una hoja de cálculo, donde las filas corresponden a observaciones y las columnas a variables. Los dataframes pueden contener diferentes tipos de datos en cada columna y son ampliamente utilizados en análisis de datos, estadísticas y manipulación de datos en general.
+
+### Creación de dataframes en R:
+
+#### Usando la función `data.frame()`:
+
+- Se puede crear un dataframe utilizando la función `data.frame()` especificando los datos a colocar en cada columna.
+
+  ```R
+  # Creación de un dataframe
+  df <- data.frame(
+    nombres = c("Juan", "María", "Pedro"),
+    edades = c(25, 30, 28),
+    casado = c(TRUE, FALSE, TRUE)
+  )
+  ```
+
+### Acceso a elementos en un dataframe:
+
+- Se puede acceder a los elementos de un dataframe utilizando nombres de columna o índices de fila y columna.
+
+  ```R
+  # Acceder a una columna por nombre
+  columna_nombres <- df$nombres
+  
+  # Acceder a un elemento específico por fila y columna
+  elemento <- df[2, 3]  # Accede al elemento en la fila 2, columna 3
+  ```
+
+### Propiedades de los dataframes:
+
+- **Tabular y heterogéneo:** Estructura tabular con filas y columnas donde cada columna puede tener un tipo de dato distinto.
+- **Manejo de datos estructurados:** Ideal para almacenar datos de forma organizada y manipularlos para análisis y visualización.
+- **Funciones específicas:** Se dispone de muchas funciones específicas para operar y manipular dataframes en R.
+
+### Ejemplo de operaciones con dataframes:
+
+```R
+# Creación de un dataframe
+df <- data.frame(
+  nombres = c("Juan", "María", "Pedro"),
+  edades = c(25, 30, 28),
+  casado = c(TRUE, FALSE, TRUE)
+)
+
+# Acceso a elementos
+elemento <- df[2, 3]  # Accede al elemento en la fila 2, columna 3
+columna_nombres <- df$nombres  # Accede a la columna 'nombres'
+
+# Operaciones con dataframes
+suma_edades <- sum(df$edades)  # Calcula la suma de la columna 'edades'
+```
+
+Los dataframes son una estructura de datos poderosa y versátil en R que permite trabajar con datos tabulares de manera efectiva, realizando operaciones de análisis, filtrado, transformación y visualización de datos de una manera conveniente y eficiente. Son ampliamente utilizados en análisis de datos y ciencia de datos.

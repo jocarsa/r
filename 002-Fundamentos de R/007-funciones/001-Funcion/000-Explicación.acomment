@@ -1,0 +1,33 @@
+En R, la declaración de funciones se realiza utilizando la palabra clave `function`. Las funciones pueden ser predefinidas en el lenguaje o definidas por el usuario para realizar tareas específicas. La declaración de una función personalizada implica especificar su nombre, los argumentos que recibe (si los hay) y el código que define su funcionalidad.
+
+### Sintaxis para la declaración de una función en R:
+
+```R
+nombre_de_la_funcion <- function(argumentos) {
+  # Código que realiza una tarea específica
+  # Puede contener operaciones, estructuras de control, llamadas a otras funciones, etc.
+  return(resultado) # Opcional: devuelve un resultado
+}
+```
+
+- `nombre_de_la_funcion`: Es el nombre que se le da a la función.
+- `argumentos`: Son los parámetros que la función puede recibir. Pueden ser opcionales o estar ausentes si la función no requiere ningún argumento.
+- `return(resultado)`: Es opcional y se utiliza para devolver un resultado. Una función puede no tener una sentencia `return`, en cuyo caso devuelve la última expresión evaluada.
+
+### Ejemplo de declaración de una función en R:
+
+```R
+# Definición de la función 'saludar'
+saludar <- function(nombre) {
+  mensaje <- paste("¡Hola,", nombre, "! ¿Cómo estás?")
+  return(mensaje)
+}
+
+# Llamada a la función 'saludar' con el argumento "Juan"
+saludo <- saludar("Juan")
+print(saludo)  # Imprime: ¡Hola, Juan! ¿Cómo estás?
+```
+
+En este ejemplo, se define la función `saludar`, que toma un argumento `nombre`. Dentro de la función, se crea un mensaje personalizado utilizando `paste()` para concatenar el nombre proporcionado en el saludo. Luego, la función devuelve este mensaje. Posteriormente, se llama a la función `saludar` con el argumento `"Juan"`, y el saludo resultante se almacena en la variable `saludo`, que luego se imprime en la consola.
+
+Declarar funciones en R es fundamental para la modularización del código, la reutilización de la lógica y la creación de herramientas que realicen tareas específicas de manera eficiente y organizada.

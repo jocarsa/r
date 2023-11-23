@@ -1,0 +1,29 @@
+En R, la palabra clave `else` se utiliza en conjunción con la estructura condicional `if`. Esta instrucción `else` se ejecuta cuando la condición asociada al `if` no se cumple, es decir, cuando la condición del `if` es falsa.
+
+### Sintaxis del `if-else` en R:
+
+```R
+if (condición) {
+  # Bloque de código a ejecutar si la condición es verdadera
+} else {
+  # Bloque de código a ejecutar si la condición es falsa
+}
+```
+
+### Ejemplo de uso del `if-else` en R:
+
+```R
+# Definición de una variable
+edad <- 21
+
+# Uso de la estructura if-else para tomar decisiones
+if (edad >= 18) {
+  print("Eres mayor de edad")
+} else {
+  print("Eres menor de edad")
+}
+```
+
+En este caso, si la variable `edad` es mayor o igual a 18, se ejecutará el bloque de código dentro del `if` y se imprimirá "Eres mayor de edad". Si la condición del `if` no se cumple (es decir, si la edad es menor que 18), se ejecutará el bloque de código dentro del `else` y se imprimirá "Eres menor de edad".
+
+El `else` es opcional, pero permite manejar casos en los que la condición del `if` no se cumple, ofreciendo un camino alternativo de ejecución.

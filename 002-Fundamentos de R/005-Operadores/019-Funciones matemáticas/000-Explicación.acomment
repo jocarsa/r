@@ -1,0 +1,53 @@
+En R, existen varias funciones matemáticas incorporadas que permiten realizar una amplia gama de cálculos matemáticos. Estas funciones pueden utilizarse para operar con números, calcular funciones trigonométricas, exponenciales, logarítmicas, redondeos, entre otros. Aquí tienes algunas de las funciones matemáticas más comunes en R:
+
+### Funciones aritméticas básicas:
+
+- **`sum()`:** Calcula la suma de los elementos.
+  ```R
+  sum(2, 3, 4)  # Resultado: 9 (suma de 2 + 3 + 4)
+  ```
+
+- **`prod()`:** Calcula el producto de los elementos.
+  ```R
+  prod(2, 3, 4)  # Resultado: 24 (producto de 2 * 3 * 4)
+  ```
+
+- **`mean()`:** Calcula la media de los elementos.
+  ```R
+  mean(2, 3, 4)  # Resultado: 3 (media de 2, 3, 4)
+  ```
+
+### Funciones exponenciales y logarítmicas:
+
+- **`exp()`:** Calcula el exponencial de un número.
+  ```R
+  exp(2)  # Resultado: 7.389056 (e elevado a la potencia 2)
+  ```
+
+- **`log()`:** Calcula el logaritmo natural de un número.
+  ```R
+  log(10)  # Resultado: 2.302585 (logaritmo natural de 10)
+  ```
+
+### Funciones trigonométricas:
+
+- **`sin()`, `cos()`, `tan()`:** Calculan el seno, coseno y tangente de un ángulo en radianes.
+  ```R
+  sin(pi/2)  # Resultado: 1 (seno de pi/2)
+  cos(pi)    # Resultado: -1 (coseno de pi)
+  tan(pi/4)  # Resultado: 1 (tangente de pi/4)
+  ```
+
+### Otras funciones matemáticas:
+
+- **`sqrt()`:** Calcula la raíz cuadrada de un número.
+  ```R
+  sqrt(25)  # Resultado: 5 (raíz cuadrada de 25)
+  ```
+
+- **`abs()`:** Calcula el valor absoluto de un número.
+  ```R
+  abs(-10)  # Resultado: 10 (valor absoluto de -10)
+  ```
+
+Estas son solo algunas de las funciones matemáticas disponibles en R. La mayoría de estas funciones también pueden aplicarse a vectores y matrices para realizar cálculos en conjuntos de datos más grandes. Explorar la documentación de R te permitirá descubrir una amplia variedad de funciones matemáticas útiles para tus cálculos y análisis.

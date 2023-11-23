@@ -1,0 +1,15 @@
+Para ver el conjunto de datos de manchas solares en R, puedes utilizar el conjunto de datos predefinido llamado `sunspot.year`. Este conjunto de datos contiene información sobre la cantidad de manchas solares observadas en el Sol durante diferentes años.
+
+Puedes cargar este conjunto de datos y ver sus primeras filas utilizando los siguientes comandos en R:
+
+```R
+# Cargar el conjunto de datos sunspot.year
+data(sunspot.year)
+
+# Mostrar las primeras filas del conjunto de datos
+head(sunspot.year)
+```
+
+El comando `data(sunspot.year)` cargará el conjunto de datos `sunspot.year` en tu sesión de R, y `head(sunspot.year)` mostrará las primeras filas de este conjunto de datos, lo que te permitirá ver la estructura y los primeros valores de las columnas presentes en él.
+
+Este conjunto de datos contiene información sobre la cantidad de manchas solares observadas en el Sol durante varios años, con las columnas que probablemente incluyan información sobre el año y la cantidad de manchas solares registradas en cada año.

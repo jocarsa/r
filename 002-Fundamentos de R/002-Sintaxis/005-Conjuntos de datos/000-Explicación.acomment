@@ -1,0 +1,19 @@
+Mis disculpas por la confusión anterior. La función `data()` en R se utiliza para listar y cargar los conjuntos de datos que están incluidos en las librerías cargadas en tu entorno de R. Al llamar a `data()` sin argumentos, se muestran los nombres de los conjuntos de datos disponibles para cargar desde las librerías actualmente cargadas.
+
+Para ver los conjuntos de datos disponibles, puedes ejecutar simplemente:
+
+```R
+data()
+```
+
+Esto mostrará una lista de los nombres de los conjuntos de datos disponibles en las librerías que has cargado en tu sesión de R. Puedes cargar un conjunto de datos específico de la lista utilizando `data(nombre_del_conjunto_de_datos)`.
+
+Por ejemplo, si deseas cargar el conjunto de datos `mtcars` que se encuentra en la librería `datasets`, puedes hacerlo de esta manera:
+
+```R
+data(mtcars)
+```
+
+Una vez que ejecutes esta línea de código, el conjunto de datos `mtcars` estará disponible en tu sesión de R para que puedas explorarlo y realizar análisis o visualizaciones sobre él.
+
+Recuerda que la disponibilidad de conjuntos de datos puede variar dependiendo de las librerías que hayas cargado en tu entorno de R.

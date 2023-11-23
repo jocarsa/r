@@ -1,0 +1,31 @@
+En R, la estructura condicional `if` se utiliza para ejecutar un bloque de código si una condición especificada es verdadera. Puede ir seguida de un bloque `else if` y/o `else` para manejar distintas condiciones o situaciones.
+
+### Sintaxis del `if` en R:
+
+```R
+if (condición) {
+  # Bloque de código a ejecutar si la condición es verdadera
+} else if (otra_condición) {
+  # Bloque de código a ejecutar si la otra condición es verdadera
+} else {
+  # Bloque de código a ejecutar si ninguna condición es verdadera
+}
+```
+
+### Ejemplo de uso del `if` en R:
+
+```R
+# Definición de una variable
+edad <- 18
+
+# Uso de la estructura if para tomar decisiones
+if (edad >= 18) {
+  print("Eres mayor de edad")
+} else {
+  print("Eres menor de edad")
+}
+```
+
+En este ejemplo, si la variable `edad` es mayor o igual a 18, se ejecutará el bloque de código dentro del primer `if`. En caso contrario, se ejecutará el bloque de código dentro del `else`. 
+
+Si se necesitan más condiciones, se pueden agregar bloques `else if` para evaluar otras situaciones. Recuerda que en este tipo de estructura de control, se ejecutará únicamente el bloque correspondiente a la primera condición que resulte verdadera.

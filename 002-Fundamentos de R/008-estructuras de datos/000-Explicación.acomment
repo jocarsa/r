@@ -1,0 +1,58 @@
+En R, las estructuras de datos son objetos que permiten almacenar y organizar información de diversas formas. Estas estructuras son fundamentales para manejar datos de manera eficiente y realizar operaciones sobre ellos. Algunas de las estructuras de datos más comunes en R son:
+
+### Vectores:
+
+- Un vector es una secuencia de elementos del mismo tipo. Puede ser de tipo numérico, de caracteres, lógico, etc.
+  
+  Ejemplo:
+  ```R
+  # Vector numérico
+  numeros <- c(1, 2, 3, 4, 5)
+  
+  # Vector de caracteres
+  nombres <- c("Juan", "María", "Pedro")
+  ```
+
+### Listas:
+
+- Una lista es una colección ordenada de elementos que pueden ser de diferentes tipos. Los elementos se almacenan como una secuencia y pueden ser accedidos por su índice o nombre.
+  
+  Ejemplo:
+  ```R
+  # Lista
+  mi_lista <- list(nombre = "Juan", edad = 30, casado = TRUE)
+  ```
+
+### Matrices:
+
+- Una matriz es una estructura bidimensional con filas y columnas que contiene elementos del mismo tipo.
+  
+  Ejemplo:
+  ```R
+  # Matriz
+  matriz <- matrix(c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3)
+  ```
+
+### DataFrames:
+
+- Un DataFrame es similar a una matriz, pero permite tener diferentes tipos de datos en cada columna. Es una estructura de datos tabular muy utilizada en análisis de datos.
+  
+  Ejemplo:
+  ```R
+  # DataFrame
+  datos <- data.frame(nombre = c("Juan", "María", "Pedro"),
+                      edad = c(30, 25, 28),
+                      casado = c(TRUE, FALSE, TRUE))
+  ```
+
+### Factores:
+
+- Los factores se utilizan para representar datos categóricos. Son útiles en análisis estadísticos y gráficos.
+  
+  Ejemplo:
+  ```R
+  # Factor
+  genero <- factor(c("Masculino", "Femenino", "Masculino", "Femenino"))
+  ```
+
+Estas estructuras de datos proporcionan formas flexibles de almacenar, organizar y manipular datos en R. La elección de la estructura de datos adecuada depende de la naturaleza y el propósito de los datos que se van a procesar.

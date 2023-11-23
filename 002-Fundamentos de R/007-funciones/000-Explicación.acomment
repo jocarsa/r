@@ -1,0 +1,37 @@
+En R, las funciones son bloques de código que realizan una tarea específica cuando se invocan. Estas funciones pueden ser predefinidas en el lenguaje (como `print()`, `sum()`, `mean()`, etc.) o pueden ser definidas por el usuario para realizar tareas personalizadas.
+
+### Sintaxis para definir una función en R:
+
+Para definir una función en R, se utiliza la siguiente sintaxis:
+
+```R
+nombre_de_la_funcion <- function(argumentos) {
+  # Bloque de código
+  # que realiza una tarea
+  return(resultado) # Opcional: devuelve un resultado
+}
+```
+
+- `nombre_de_la_funcion`: Es el nombre que se le da a la función.
+- `argumentos`: Son los parámetros que la función puede recibir. Pueden ser opcionales o estar ausentes si la función no requiere ningún argumento.
+- `return(resultado)`: Es opcional y se utiliza para devolver un resultado. Una función puede no tener una sentencia `return`, en cuyo caso devuelve la última expresión evaluada.
+
+### Ejemplo de una función simple en R:
+
+Aquí hay un ejemplo de una función que suma dos números:
+
+```R
+# Definición de la función 'sumar'
+sumar <- function(a, b) {
+  resultado <- a + b
+  return(resultado)
+}
+
+# Llamada a la función 'sumar' con argumentos 5 y 3
+resultado_suma <- sumar(5, 3)
+print(resultado_suma)  # Imprime: 8
+```
+
+En este ejemplo, se define la función `sumar` que toma dos argumentos (`a` y `b`) y devuelve la suma de estos dos números. Luego, se llama a la función `sumar` con los argumentos `5` y `3`, y se almacena el resultado en la variable `resultado_suma`.
+
+Las funciones son fundamentales en la programación, ya que permiten organizar el código, reutilizar lógica y realizar tareas específicas de manera modular, lo que facilita la comprensión y mantenimiento del código.

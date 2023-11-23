@@ -1,0 +1,43 @@
+En R, los caracteres de escape se utilizan para representar ciertos caracteres especiales dentro de cadenas de texto o literales de caracteres. Estos caracteres comienzan con una barra invertida `\` seguida de otro carácter, y tienen un significado especial para indicar, por ejemplo, un salto de línea, tabulación, o representar caracteres que de otra forma serían difíciles de incluir en una cadena.
+
+Aquí tienes algunos de los caracteres de escape más comunes en R:
+
+1. **`\n`:** Representa un salto de línea.
+   
+   Ejemplo:
+   ```R
+   mensaje <- "Hola\nMundo"
+   print(mensaje)
+   # Salida:
+   # Hola
+   # Mundo
+   ```
+
+2. **`\t`:** Representa una tabulación.
+
+   Ejemplo:
+   ```R
+   mensaje <- "Nombre:\tJuan"
+   print(mensaje)
+   # Salida: Nombre:   Juan
+   ```
+
+3. **`\\`:** Representa una barra invertida literal `\`.
+
+   Ejemplo:
+   ```R
+   mensaje <- "C:\\carpeta\\archivo.txt"
+   print(mensaje)
+   # Salida: C:\carpeta\archivo.txt
+   ```
+
+4. **`\"`:** Representa una comilla doble `"` dentro de una cadena de texto.
+
+   Ejemplo:
+   ```R
+   mensaje <- "Esto es un ejemplo de \"comillas dobles\""
+   print(mensaje)
+   # Salida: Esto es un ejemplo de "comillas dobles"
+   ```
+
+Estos caracteres de escape son útiles para incluir formatos especiales o caracteres difíciles de escribir dentro de cadenas de texto. Ayudan a representar caracteres que, de lo contrario, podrían confundirse con símbolos especiales o indicadores de control dentro de la cadena.

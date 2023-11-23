@@ -1,0 +1,14 @@
+Los comentarios en línea en R se crean utilizando el símbolo `#`. Estos comentarios se emplean para añadir explicaciones o notas breves dentro de una sola línea de código y no se ejecutan como parte del programa.
+
+Aquí tienes un ejemplo de cómo se utilizan los comentarios en línea en R:
+
+```R
+x <- 5  # Asignación del valor 5 a la variable 'x'
+
+# La siguiente línea de código imprime el valor de 'x'
+print(x)
+```
+
+En este ejemplo, tanto `# Asignación del valor 5 a la variable 'x'` como `# La siguiente línea de código imprime el valor de 'x'` son comentarios en línea. Los comentarios en línea son útiles para brindar información rápida sobre lo que hace una línea de código específica o para añadir detalles importantes en tu script sin ocupar más de una línea.
+
+Es importante destacar que los comentarios en línea son ignorados por el intérprete de R y no afectan la ejecución del código. Su función principal es proporcionar aclaraciones adicionales para entender mejor el código.

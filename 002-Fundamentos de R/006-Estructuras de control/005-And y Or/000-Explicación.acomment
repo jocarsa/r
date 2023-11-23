@@ -1,0 +1,39 @@
+En R, los operadores lógicos `&` (AND) y `|` (OR) se utilizan para realizar operaciones lógicas en expresiones condicionales. Estos operadores se emplean principalmente dentro de estructuras condicionales (`if`, `else if`, `while`, `for`, entre otros) para evaluar múltiples condiciones y tomar decisiones basadas en esos resultados.
+
+### Operador `&` (AND lógico):
+
+- El operador `&` realiza una operación lógica `AND` elemento por elemento.
+- Devuelve `TRUE` si ambos operandos son `TRUE`, de lo contrario, devuelve `FALSE`.
+
+Ejemplo:
+```R
+# Ejemplo de operador AND (|)
+edad <- 25
+ingresos <- 30000
+
+if (edad >= 18 & ingresos >= 25000) {
+  print("Eres mayor de edad y tienes ingresos suficientes")
+} else {
+  print("No cumples con ambas condiciones")
+}
+```
+
+### Operador `|` (OR lógico):
+
+- El operador `|` realiza una operación lógica `OR` elemento por elemento.
+- Devuelve `TRUE` si al menos uno de los operandos es `TRUE`, de lo contrario, devuelve `FALSE`.
+
+Ejemplo:
+```R
+# Ejemplo de operador OR (|)
+edad <- 25
+ingresos <- 20000
+
+if (edad >= 18 | ingresos >= 25000) {
+  print("Cumples con al menos una de las condiciones")
+} else {
+  print("No cumples con ninguna condición")
+}
+```
+
+Ambos operadores (`&` y `|`) pueden utilizarse para evaluar múltiples condiciones dentro de una estructura condicional y tomar decisiones basadas en esas evaluaciones lógicas. Es importante tener en cuenta que el uso adecuado de paréntesis puede ser crucial para definir el orden de evaluación cuando se combinan múltiples condiciones con estos operadores.

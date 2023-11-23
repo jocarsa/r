@@ -1,0 +1,30 @@
+En R, la ejecución o llamada a una función se realiza utilizando el nombre de la función seguido de paréntesis `()` que pueden contener los argumentos necesarios para la función (si los tiene). La ejecución de una función invoca el código definido dentro de la función, permitiendo así que la tarea especificada por la función se lleve a cabo.
+
+### Sintaxis para ejecutar una función en R:
+
+```R
+nombre_de_la_funcion(argumentos)  # Llamada a la función con los argumentos necesarios
+```
+
+- `nombre_de_la_funcion`: Es el nombre de la función que se va a ejecutar.
+- `argumentos`: Son los valores que se pasan a la función como entradas. Estos pueden ser opcionales, dependiendo de cómo se haya definido la función.
+
+### Ejemplo de ejecución de una función en R:
+
+Supongamos que tenemos una función llamada `sumar` que realiza la suma de dos números:
+
+```R
+# Definición de la función 'sumar'
+sumar <- function(a, b) {
+  resultado <- a + b
+  return(resultado)
+}
+
+# Llamada a la función 'sumar' con los argumentos 5 y 3
+resultado_suma <- sumar(5, 3)
+print(resultado_suma)  # Imprime: 8
+```
+
+En este ejemplo, `sumar(5, 3)` es la llamada a la función `sumar` con los argumentos `5` y `3`. La función `sumar` realiza la suma de estos dos números y devuelve el resultado, que luego se almacena en la variable `resultado_suma` y se imprime en la consola.
+
+Al llamar a una función, R ejecuta el bloque de código que fue definido dentro de esa función, utilizando los argumentos proporcionados, si es que los hay. Esto permite modularizar el código y reutilizar funcionalidades específicas según sea necesario.

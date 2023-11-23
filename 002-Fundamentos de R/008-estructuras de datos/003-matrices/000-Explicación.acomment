@@ -1,0 +1,42 @@
+En R, una matriz es una estructura de datos bidimensional que contiene elementos del mismo tipo organizados en filas y columnas. Se puede considerar como una extensión de un vector con una dimensión adicional, proporcionando una forma eficiente de almacenar datos en una tabla de filas y columnas.
+
+### Creación de matrices en R:
+
+#### Usando la función `matrix()`:
+
+- Se puede crear una matriz utilizando la función `matrix()` especificando los datos a colocar, el número de filas y columnas, y opcionalmente especificando si se desea que los datos se llenen por filas o por columnas.
+
+  ```R
+  # Creación de una matriz 3x3
+  matriz <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9), nrow = 3, ncol = 3, byrow = TRUE)
+  ```
+
+### Acceso a elementos en una matriz:
+
+- Los elementos de una matriz se pueden acceder utilizando índices de fila y columna.
+
+  ```R
+  # Acceder al elemento en la fila 2, columna 3
+  elemento <- matriz[2, 3]
+  ```
+
+### Propiedades de las matrices:
+
+- **Estructura bidimensional:** Los elementos se organizan en filas y columnas.
+- **Mismo tipo de datos:** Todos los elementos en una matriz deben ser del mismo tipo.
+- **Operaciones matriciales:** Las matrices permiten realizar operaciones matriciales como multiplicación, transposición, etc.
+
+### Ejemplo de operaciones con matrices:
+
+```R
+# Creación de una matriz
+matriz <- matrix(1:9, nrow = 3, ncol = 3)
+
+# Acceso a elementos
+elemento <- matriz[2, 3]  # Accede al elemento en la fila 2, columna 3
+
+# Operaciones matriciales
+transpuesta <- t(matriz)  # Calcula la matriz transpuesta
+```
+
+Las matrices son útiles para representar datos estructurados en forma tabular, realizar operaciones matriciales, y llevar a cabo análisis numéricos y estadísticos más avanzados en R. Su estructura bidimensional y sus propiedades facilitan su uso en una variedad de aplicaciones.

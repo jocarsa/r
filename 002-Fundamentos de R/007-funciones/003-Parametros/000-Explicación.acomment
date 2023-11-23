@@ -1,0 +1,31 @@
+Los parámetros en las funciones de R son las variables que se utilizan para recibir datos o valores que serán procesados dentro de la función. Estos parámetros actúan como entradas que permiten a la función realizar tareas específicas utilizando los valores proporcionados al llamarla.
+
+### Declaración de parámetros en una función:
+
+En la definición de una función, los parámetros se especifican entre los paréntesis `( )`. Pueden ser uno o más, y se separan por comas. Estos parámetros son las variables que la función espera recibir al ser llamada.
+
+```R
+nombre_de_la_funcion <- function(parametro1, parametro2, ...) {
+  # Código que utiliza los parámetros
+}
+```
+
+- `parametro1`, `parametro2`, etc.: Son los nombres de los parámetros que se utilizan para representar los valores que se pasan a la función al llamarla.
+
+### Ejemplo de función con parámetros:
+
+```R
+# Definición de la función 'saludar'
+saludar <- function(nombre) {
+  mensaje <- paste("¡Hola,", nombre, "! ¿Cómo estás?")
+  return(mensaje)
+}
+
+# Llamada a la función 'saludar' con el argumento "Juan"
+saludo <- saludar("Juan")
+print(saludo)  # Imprime: ¡Hola, Juan! ¿Cómo estás?
+```
+
+En este ejemplo, `nombre` es el parámetro de la función `saludar`. Cuando se llama a la función `saludar("Juan")`, el valor `"Juan"` se pasa como argumento al parámetro `nombre`. Dentro de la función, este valor se utiliza para crear el mensaje de saludo personalizado.
+
+Los parámetros permiten que las funciones en R sean más flexibles y reutilizables, ya que pueden aceptar diferentes valores en diferentes llamadas, lo que les permite adaptarse a diversas situaciones y realizar tareas específicas en función de los datos proporcionados.

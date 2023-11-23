@@ -1,0 +1,17 @@
+En R, los comentarios de una sola línea se crean utilizando el símbolo `#`. Estos comentarios se utilizan para añadir explicaciones, aclaraciones o notas breves sobre el código en una sola línea y no se ejecutan como parte del programa.
+
+Aquí tienes un ejemplo de cómo se utilizan los comentarios de una sola línea en R:
+
+```R
+# Esta es una operación de suma
+resultado <- 5 + 7  # La suma de 5 y 7 se asigna a la variable 'resultado'
+
+# Asignación de un valor a la variable 'nombre'
+nombre <- "Juan"  # Se asigna el nombre "Juan" a la variable 'nombre'
+
+# Este es otro comentario explicativo
+```
+
+En el código anterior, las líneas que comienzan con `#` son comentarios. Estos comentarios son útiles para proporcionar información rápida sobre lo que hace una línea de código específica o para anotar detalles importantes en tu script.
+
+Es importante recordar que los comentarios de una sola línea en R son ignorados por el intérprete y no tienen impacto en la ejecución del código. Su principal función es mejorar la comprensión del código para ti y para otros que puedan leerlo en el futuro.

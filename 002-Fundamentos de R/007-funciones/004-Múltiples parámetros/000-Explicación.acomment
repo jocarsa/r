@@ -1,0 +1,29 @@
+En R, las funciones pueden aceptar múltiples parámetros, permitiendo a los usuarios pasar varios valores a la función cuando se invoca. Estos parámetros se definen dentro de los paréntesis en la declaración de la función, separados por comas.
+
+### Declaración de múltiples parámetros en una función:
+
+```R
+nombre_de_la_funcion <- function(parametro1, parametro2, parametro3, ...) {
+  # Código que utiliza los parámetros
+}
+```
+
+- `parametro1`, `parametro2`, `parametro3`, etc.: Son los nombres de los parámetros que la función espera recibir al ser llamada. Se pueden especificar tantos como sea necesario, separados por comas.
+
+### Ejemplo de función con múltiples parámetros:
+
+```R
+# Definición de la función 'concatenar'
+concatenar <- function(palabra1, palabra2) {
+  resultado <- paste(palabra1, palabra2)
+  return(resultado)
+}
+
+# Llamada a la función 'concatenar' con dos argumentos
+resultado_concatenacion <- concatenar("Hola", "Mundo")
+print(resultado_concatenacion)  # Imprime: Hola Mundo
+```
+
+En este ejemplo, la función `concatenar` toma dos parámetros: `palabra1` y `palabra2`. Al llamar a la función con `"Hola"` como primer argumento y `"Mundo"` como segundo argumento (`concatenar("Hola", "Mundo")`), estas palabras se pasan como argumentos a los parámetros respectivos. La función concatena las dos palabras y devuelve el resultado `"Hola Mundo"`.
+
+Puedes definir tantos parámetros como necesites en una función para capturar la información requerida para realizar la tarea deseada dentro del cuerpo de la función.

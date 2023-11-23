@@ -1,0 +1,59 @@
+En el lenguaje R, los operadores matemáticos se utilizan para realizar operaciones aritméticas y cálculos matemáticos sobre números y variables. Estos operadores permiten realizar diferentes tipos de operaciones, como sumas, restas, multiplicaciones, divisiones, exponenciación, entre otros.
+
+Aquí tienes una lista de los operadores matemáticos más comunes en R:
+
+### Operadores aritméticos:
+
+1. **Suma (`+`):** Se utiliza para sumar dos valores.
+   ```R
+   3 + 5
+   # Salida: 8
+   ```
+
+2. **Resta (`-`):** Se utiliza para restar un valor de otro.
+   ```R
+   7 - 4
+   # Salida: 3
+   ```
+
+3. **Multiplicación (`*`):** Se utiliza para multiplicar dos valores.
+   ```R
+   2 * 6
+   # Salida: 12
+   ```
+
+4. **División (`/`):** Se utiliza para dividir un valor entre otro.
+   ```R
+   10 / 2
+   # Salida: 5
+   ```
+
+5. **Módulo o Resto (`%%`):** Devuelve el resto de la división entre dos números.
+   ```R
+   10 %% 3
+   # Salida: 1 (porque 10 dividido por 3 da 3 y resto 1)
+   ```
+
+6. **Exponenciación (`^` o `**`):** Calcula un número elevado a otro.
+   ```R
+   2^3
+   # Salida: 8
+   ```
+
+7. **División entera (`%/%`):** Devuelve la parte entera de la división entre dos números.
+   ```R
+   10 %/% 3
+   # Salida: 3 (porque 10 dividido por 3 es 3 con 1 de resto, devuelve solo la parte entera)
+   ```
+
+### Ejemplos combinados:
+
+```R
+# Ejemplo combinado de operadores matemáticos
+resultado <- 4 + 6 * 2 - 8 / 4
+# 4 + (6 * 2) - (8 / 4) = 4 + 12 - 2 = 16 - 2 = 14
+# Salida: 14
+print(resultado)
+```
+
+Estos operadores son fundamentales en R para realizar cálculos matemáticos, operaciones básicas y complejas, y son empleados ampliamente en análisis de datos, modelado estadístico y otras tareas relacionadas con la manipulación numérica.

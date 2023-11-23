@@ -1,0 +1,41 @@
+En R, los operadores son símbolos o funciones especiales que se utilizan para realizar operaciones matemáticas, comparaciones lógicas o manipulaciones de datos. Estos operadores pueden clasificarse en diferentes categorías según su funcionalidad:
+
+### Operadores aritméticos:
+
+- **Suma (+):** Se utiliza para sumar valores.
+- **Resta (-):** Se utiliza para restar valores.
+- **Multiplicación (*):** Se utiliza para multiplicar valores.
+- **División (/):** Se utiliza para dividir valores.
+- **Exponente (^):** Se utiliza para elevar un número a una potencia.
+- **Módulo (%%):** Devuelve el resto de la división entre dos números.
+
+### Operadores de asignación:
+
+- **Asignación simple (<- o =):** Se utiliza para asignar valores a variables.
+- **Asignación compuesta (+=, -=, *=, /=):** Modifican y asignan valores a la variable en un solo paso.
+
+### Operadores de comparación:
+
+- **Igualdad (==):** Comprueba si dos valores son iguales.
+- **Desigualdad (!=):** Comprueba si dos valores son diferentes.
+- **Mayor que (>), Menor que (<):** Comprueban si un valor es mayor o menor que otro.
+- **Mayor o igual que (>=), Menor o igual que (<=):** Comprueban si un valor es mayor o igual o menor o igual que otro, respectivamente.
+
+### Operadores lógicos:
+
+- **Y lógico (&&, &):** Realiza la operación "Y" lógica.
+- **O lógico (||, |):** Realiza la operación "O" lógica.
+- **Negación lógica (!):** Niega una condición lógica.
+
+### Operadores para estructuras de datos:
+
+- **Indexación ([ ]):** Se utiliza para acceder a elementos específicos en vectores, matrices o listas.
+- **Operador de concatenación (c()):** Se utiliza para crear vectores concatenando elementos.
+- **Operadores de acceso a datos en dataframes ($, [ ]):** Se utilizan para acceder a columnas específicas en un dataframe.
+
+### Otros operadores:
+
+- **Operador de secuencia (:):** Crea una secuencia de números.
+- **Operador de pipe (%>%):** Se utiliza para encadenar operaciones en el paquete `magrittr`.
+
+Estos son algunos de los operadores más comunes en R. Comprender y utilizar estos operadores es fundamental para realizar operaciones matemáticas, lógicas y manipulaciones de datos de manera efectiva en R.

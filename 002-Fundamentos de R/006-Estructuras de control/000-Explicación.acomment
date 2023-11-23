@@ -1,0 +1,66 @@
+En R, las estructuras de control son utilizadas para controlar el flujo de ejecución de un programa. Permiten tomar decisiones, repetir acciones o ejecutar bloques de código bajo ciertas condiciones. Las estructuras de control más comunes en R son:
+
+### Estructuras de control condicionales:
+
+#### 1. **if-else:**
+   - Se utiliza para tomar decisiones basadas en una condición.
+   - Sintaxis:
+     ```R
+     if (condición) {
+       # Código si la condición es verdadera
+     } else {
+       # Código si la condición es falsa
+     }
+     ```
+
+#### 2. **if-else-if-else:**
+   - Permite evaluar múltiples condiciones secuenciales.
+   - Sintaxis:
+     ```R
+     if (condición1) {
+       # Código si la condición1 es verdadera
+     } else if (condición2) {
+       # Código si la condición2 es verdadera
+     } else {
+       # Código si todas las condiciones son falsas
+     }
+     ```
+
+### Estructuras de control iterativas (bucles):
+
+#### 1. **for:**
+   - Se utiliza para iterar sobre una secuencia conocida.
+   - Sintaxis:
+     ```R
+     for (elemento in secuencia) {
+       # Código a ejecutar en cada iteración
+     }
+     ```
+
+#### 2. **while:**
+   - Se ejecuta mientras una condición sea verdadera.
+   - Sintaxis:
+     ```R
+     while (condición) {
+       # Código a ejecutar mientras la condición sea verdadera
+     }
+     ```
+
+#### 3. **repeat:**
+   - Se ejecuta indefinidamente hasta que se utiliza `break` para salir del bucle.
+   - Sintaxis:
+     ```R
+     repeat {
+       # Código a ejecutar repetidamente
+       if (condición_de_salida) {
+         break  # Sale del bucle
+       }
+     }
+     ```
+
+### Control de bucles:
+
+- **break:** Se utiliza para salir de un bucle.
+- **next:** Se utiliza para pasar a la siguiente iteración de un bucle.
+
+Estas estructuras de control son fundamentales para la lógica de programación en R. Permiten tomar decisiones basadas en condiciones, repetir acciones y controlar el flujo de ejecución del programa. Su uso adecuado es clave para escribir código eficiente y funcional.

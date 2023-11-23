@@ -1,0 +1,29 @@
+En R, la estructura de control `while` se utiliza para ejecutar un bloque de código mientras una condición especificada sea verdadera. A diferencia del bucle `for`, que itera sobre una secuencia predefinida, el bucle `while` se repite mientras una condición dada sea evaluada como `TRUE`.
+
+### Sintaxis del bucle `while` en R:
+
+La sintaxis del bucle `while` es la siguiente:
+
+```R
+while (condición) {
+  # Bloque de código a ejecutar mientras la condición sea verdadera
+}
+```
+
+- `condición`: Es una expresión lógica que se evalúa antes de cada iteración. Mientras esta condición sea `TRUE`, el bucle continuará ejecutándose. Cuando la condición se evalúe como `FALSE`, el bucle se detendrá y la ejecución continuará con el código siguiente después del bucle.
+
+### Ejemplo de uso del bucle `while`:
+
+```R
+# Ejemplo de bucle while que cuenta desde 1 hasta 5
+contador <- 1
+
+while (contador <= 5) {
+  print(contador)
+  contador <- contador + 1
+}
+```
+
+En este ejemplo, se inicializa `contador` con el valor `1`. El bucle `while` se ejecuta mientras `contador` sea menor o igual a `5`. En cada iteración, se imprime el valor actual de `contador` y luego se incrementa su valor en `1`. El bucle se detiene cuando `contador` es `6`, ya que la condición `contador <= 5` se evalúa como `FALSE`.
+
+El bucle `while` es útil cuando se desconoce la cantidad exacta de iteraciones que se deben realizar, pero se sabe que se debe continuar hasta que una condición determinada deje de ser verdadera. Es importante tener cuidado al usar bucles `while` para evitar bucles infinitos, asegurándose de que la condición de salida eventualmente cambie a `FALSE`.

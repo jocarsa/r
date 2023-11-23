@@ -1,0 +1,21 @@
+En R, no se requiere una declaración explícita de variables antes de asignarles valores. R es un lenguaje de programación de tipado dinámico, lo que significa que el tipo de datos se infiere automáticamente según el valor asignado a la variable.
+
+La asignación de valores a variables se realiza mediante el operador `<-` o el operador `=`. Ambos se utilizan para asignar valores a las variables. Por ejemplo:
+
+```R
+x <- 10  # Se asigna el valor 10 a la variable 'x'
+nombre <- "Juan"  # Se asigna el texto "Juan" a la variable 'nombre'
+```
+
+En el código anterior, `x` y `nombre` son variables a las que se les asignan valores sin necesidad de declarar explícitamente el tipo de datos que contendrán. `x` se convierte automáticamente en una variable numérica y `nombre` en una variable de caracteres (texto), ya que R infiere el tipo de datos basándose en los valores asignados.
+
+Es importante mencionar que en R no es necesario especificar el tipo de datos al crear una variable, pero puedes usar funciones como `class()` para verificar el tipo de datos de una variable existente:
+
+```R
+x <- 10  # Asignación del valor 10 a la variable 'x'
+class(x)  # Muestra el tipo de datos de la variable 'x'
+```
+
+Este código devolverá el tipo de datos de la variable `x`, que en este caso sería `"numeric"`.
+
+La flexibilidad del tipado dinámico en R facilita la manipulación de datos, ya que te permite trabajar con diferentes tipos de datos en una misma sesión sin necesidad de declarar previamente el tipo de variable.

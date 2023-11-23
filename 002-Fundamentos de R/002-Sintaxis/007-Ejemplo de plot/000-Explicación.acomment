@@ -1,0 +1,15 @@
+Si deseas realizar una operación `plot()` con el conjunto de datos `sunspot.year` que contiene información sobre las manchas solares a lo largo de los años, puedes utilizar la función `plot()` para visualizar estos datos.
+
+Para graficar la cantidad de manchas solares a lo largo de los años, puedes hacer lo siguiente:
+
+```R
+# Cargar el conjunto de datos sunspot.year
+data(sunspot.year)
+
+# Graficar la cantidad de manchas solares a lo largo de los años
+plot(sunspot.year, type = "l", xlab = "Año", ylab = "Cantidad de manchas solares", main = "Manchas solares por año")
+```
+
+Este código generará un gráfico de líneas que muestra la cantidad de manchas solares registradas en el conjunto de datos `sunspot.year` a lo largo de los años. El eje x representa los años y el eje y representa la cantidad de manchas solares observadas en cada año.
+
+La función `plot()` se utiliza aquí con `type = "l"` para dibujar un gráfico de líneas. Además, se agregaron etiquetas a los ejes x e y (`xlab` y `ylab`, respectivamente), así como un título (`main`) para el gráfico. Estos parámetros son opcionales y pueden ajustarse según sea necesario para personalizar la apariencia del gráfico.

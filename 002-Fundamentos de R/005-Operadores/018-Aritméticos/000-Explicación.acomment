@@ -1,0 +1,69 @@
+En R, los operadores aritméticos son símbolos utilizados para llevar a cabo operaciones matemáticas básicas. Estos operadores permiten realizar sumas, restas, multiplicaciones, divisiones, cálculos de exponentes y obtener el módulo de un número. Aquí están los operadores aritméticos más comunes en R:
+
+### Suma (+):
+
+El operador `+` se utiliza para sumar dos valores.
+
+Ejemplo:
+```R
+# Suma de dos números
+resultado <- 5 + 3
+# El valor de 'resultado' será 8
+```
+
+### Resta (-):
+
+El operador `-` se utiliza para restar un valor de otro.
+
+Ejemplo:
+```R
+# Resta de dos números
+resultado <- 10 - 4
+# El valor de 'resultado' será 6
+```
+
+### Multiplicación (*):
+
+El operador `*` se utiliza para multiplicar dos valores.
+
+Ejemplo:
+```R
+# Multiplicación de dos números
+resultado <- 6 * 3
+# El valor de 'resultado' será 18
+```
+
+### División (/):
+
+El operador `/` se utiliza para dividir un valor por otro.
+
+Ejemplo:
+```R
+# División de dos números
+resultado <- 15 / 5
+# El valor de 'resultado' será 3
+```
+
+### Exponente (^):
+
+El operador `^` se utiliza para elevar un número a una potencia.
+
+Ejemplo:
+```R
+# Exponenciación de un número
+resultado <- 2 ^ 3
+# El valor de 'resultado' será 8 (2 elevado a la 3)
+```
+
+### Módulo (%%):
+
+El operador `%%` devuelve el resto de la división entre dos números.
+
+Ejemplo:
+```R
+# Cálculo del resto de la división
+resultado <- 10 %% 3
+# El valor de 'resultado' será 1 (resto de dividir 10 entre 3)
+```
+
+Estos operadores aritméticos son fundamentales en R para realizar cálculos matemáticos básicos y son ampliamente utilizados en la manipulación de datos y operaciones numéricas en el lenguaje.

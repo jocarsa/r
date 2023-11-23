@@ -1,0 +1,30 @@
+En R, los identificadores se refieren a los nombres que se asignan a objetos como variables, funciones, argumentos, entre otros elementos en el código. Las reglas para nombrar identificadores en R son:
+
+1. **Composición de nombres:**
+   - Los identificadores pueden contener letras (mayúsculas y minúsculas), dígitos y el símbolo `_`.
+   - No pueden empezar con un número ni contener espacios en blanco.
+   - No se permite el uso de otros caracteres especiales como `!`, `@`, `#`, `$`, `%`, `^`, `&`, `*`, `-`, `+`, entre otros, en los nombres de identificadores, excepto el guion bajo `_`.
+   - Se distingue entre mayúsculas y minúsculas en los nombres de los identificadores, por lo que `miVariable` y `mivariable` son considerados diferentes.
+
+2. **Palabras reservadas:**
+   - Algunas palabras son reservadas en R y no pueden ser usadas como identificadores. Estas palabras incluyen palabras clave del lenguaje como `if`, `else`, `for`, `while`, `function`, entre otras. Puedes obtener la lista completa de palabras reservadas con `?Reserved`.
+
+3. **Longitud de los identificadores:**
+   - Los identificadores pueden ser tan largos como se desee, pero se recomienda mantenerlos cortos y descriptivos para mejorar la legibilidad del código.
+
+### Ejemplos de nombres de identificadores válidos en R:
+
+- `miVariable`
+- `edad_persona`
+- `nombreCompleto`
+- `vector1`
+- `funcion_calculo`
+
+### Ejemplos de nombres de identificadores no válidos en R:
+
+- `2variable` (comienza con un número)
+- `variable especial` (contiene espacio en blanco)
+- `mi-variable` (utiliza el guion `-`, no es permitido en identificadores)
+- `for` (es una palabra reservada en R)
+
+Seguir estas reglas al nombrar identificadores en R es importante para evitar errores y mantener un código claro y legible. Es una buena práctica utilizar nombres descriptivos que reflejen el propósito o la función del objeto al que hacen referencia.

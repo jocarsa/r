@@ -1,0 +1,39 @@
+Las variables en R son contenedores que se utilizan para almacenar valores como números, texto, vectores, dataframes u otros objetos. Cada variable tiene un nombre único que la identifica y un valor asociado que puede cambiar a lo largo del tiempo.
+
+### Reglas para nombrar variables en R:
+
+- Los nombres de las variables pueden contener letras (mayúsculas y minúsculas), dígitos y el símbolo `_`.
+- Los nombres de variables no pueden comenzar con un número o contener espacios en blanco.
+- Se distingue entre mayúsculas y minúsculas en los nombres de las variables en R (`miVariable` y `mivariable` serían consideradas diferentes).
+- Algunos nombres están reservados en R y no pueden ser usados como nombres de variables (por ejemplo, palabras clave como `if`, `else`, `for`, entre otros).
+
+### Asignación de valores a variables:
+
+En R, se asigna un valor a una variable utilizando el operador `<-` o el operador `=`. Ambos se utilizan para asignar valores a las variables, por ejemplo:
+
+```R
+# Asignación de valores a variables
+x <- 10  # Se asigna el valor 10 a la variable 'x'
+nombre <- "Juan"  # Se asigna el texto "Juan" a la variable 'nombre'
+vector <- c(1, 2, 3, 4, 5)  # Se asigna un vector a la variable 'vector'
+```
+
+### Tipos de variables en R:
+
+R es un lenguaje de tipado dinámico, lo que significa que no es necesario declarar explícitamente el tipo de variable. El tipo de datos se infiere automáticamente según el valor que se asigna a la variable. Algunos tipos de variables comunes en R incluyen:
+
+- **Numeric:** Para almacenar valores numéricos como enteros o decimales.
+- **Character:** Para almacenar texto o cadenas de caracteres.
+- **Logical:** Para almacenar valores booleanos `TRUE` o `FALSE`.
+- **Vector:** Para almacenar una secuencia de valores del mismo tipo.
+- **Dataframe:** Una estructura tabular que puede contener diferentes tipos de datos en columnas.
+
+```R
+# Ejemplos de diferentes tipos de variables en R
+numero <- 10  # Variable numérica
+texto <- "Hola, mundo"  # Variable de texto
+logico <- TRUE  # Variable lógica
+vector <- c(1, 2, 3, 4, 5)  # Variable vector
+```
+
+Las variables son fundamentales en R ya que permiten almacenar y manipular datos de manera eficiente, lo que facilita el análisis y la manipulación de datos en el entorno de programación.

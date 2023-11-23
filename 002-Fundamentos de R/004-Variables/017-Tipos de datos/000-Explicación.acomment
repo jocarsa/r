@@ -1,0 +1,54 @@
+En R, existen varios tipos de datos que se utilizan para representar diferentes tipos de información. Algunos de los tipos de datos más comunes en R incluyen:
+
+1. **Numeric:** Representa números reales o valores numéricos, ya sean enteros o decimales.
+   
+   Ejemplo:
+   ```R
+   numero <- 10
+   decimal <- 3.14
+   ```
+
+2. **Character:** Representa cadenas de texto o caracteres. Se utilizan para almacenar palabras, frases o cualquier tipo de texto.
+
+   Ejemplo:
+   ```R
+   texto <- "Hola, mundo!"
+   ```
+
+3. **Logical:** Representa valores booleanos `TRUE` o `FALSE`, que indican verdadero o falso respectivamente.
+
+   Ejemplo:
+   ```R
+   es_cierto <- TRUE
+   es_falso <- FALSE
+   ```
+
+4. **Factor:** Representa variables categóricas o factores con un número limitado de niveles o categorías.
+
+   Ejemplo:
+   ```R
+   genero <- factor(c("masculino", "femenino", "masculino", "femenino"))
+   ```
+
+5. **Integer:** Representa números enteros.
+
+   Ejemplo:
+   ```R
+   entero <- as.integer(5)
+   ```
+
+6. **Complex:** Representa números complejos con una parte real y una parte imaginaria.
+
+   Ejemplo:
+   ```R
+   complejo <- 3 + 4i
+   ```
+
+7. **Raw:** Representa datos en bruto o sin procesar. Se utilizan para almacenar secuencias de bytes sin interpretar.
+
+   Ejemplo:
+   ```R
+   datos_brutos <- charToRaw("abc")
+   ```
+
+Estos son algunos de los tipos de datos más utilizados en R. R es un lenguaje de programación de tipado dinámico, lo que significa que no es necesario declarar explícitamente el tipo de datos al crear una variable, ya que el tipo se infiere automáticamente según el valor asignado a la variable. Esto proporciona flexibilidad, pero es importante comprender los tipos de datos para manejar y manipular la información de manera adecuada.

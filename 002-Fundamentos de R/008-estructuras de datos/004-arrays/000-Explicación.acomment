@@ -1,0 +1,42 @@
+En R, un array es una estructura de datos multidimensional que puede contener elementos del mismo tipo. A diferencia de las matrices que son bidimensionales, los arrays pueden tener más de dos dimensiones, lo que los hace útiles para almacenar y trabajar con datos de mayor complejidad con múltiples niveles de organización.
+
+### Creación de arrays en R:
+
+#### Usando la función `array()`:
+
+- Se puede crear un array utilizando la función `array()` especificando los datos a colocar, la dimensión del array y, opcionalmente, etiquetas para las dimensiones.
+
+  ```R
+  # Creación de un array tridimensional (3x3x2)
+  mi_array <- array(1:18, dim = c(3, 3, 2))
+  ```
+
+### Acceso a elementos en un array:
+
+- Los elementos de un array se acceden utilizando índices para cada una de las dimensiones del array.
+
+  ```R
+  # Acceder al elemento en la primera fila, segunda columna y primer nivel
+  elemento <- mi_array[1, 2, 1]
+  ```
+
+### Propiedades de los arrays:
+
+- **Estructura multidimensional:** Pueden tener más de dos dimensiones.
+- **Mismo tipo de datos:** Todos los elementos en un array deben ser del mismo tipo.
+- **Operaciones multidimensionales:** Permiten realizar operaciones en múltiples dimensiones.
+
+### Ejemplo de operaciones con arrays:
+
+```R
+# Creación de un array tridimensional (2x3x2)
+mi_array <- array(1:12, dim = c(2, 3, 2))
+
+# Acceso a elementos
+elemento <- mi_array[1, 2, 1]  # Accede al elemento en la primera fila, segunda columna y primer nivel
+
+# Operaciones multidimensionales
+suma_por_nivel <- apply(mi_array, 3, sum)  # Suma los elementos por nivel
+```
+
+Los arrays son útiles cuando se necesita almacenar datos multidimensionales y realizar operaciones en múltiples niveles de estructuración. Permiten representar datos más complejos que no se pueden manejar eficazmente con estructuras de datos de menor dimensión como vectores, matrices o listas.

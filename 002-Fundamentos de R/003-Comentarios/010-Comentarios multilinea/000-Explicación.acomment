@@ -1,0 +1,25 @@
+En R, no existe una sintaxis específica para crear comentarios de varias líneas como en algunos otros lenguajes de programación. Sin embargo, existen formas de simular comentarios de varias líneas utilizando el truco de aplicar el símbolo `#` al principio de cada línea de texto.
+
+Aquí te muestro un ejemplo de cómo crear comentarios de varias líneas en R utilizando esta técnica:
+
+```R
+# Este es un comentario
+# que abarca varias líneas
+# en R utilizando el símbolo #
+```
+
+Aunque esta técnica no proporciona un formato dedicado para comentarios de varias líneas, es comúnmente utilizada para crear bloques de comentarios extensos que se extienden a lo largo de múltiples líneas.
+
+Otra opción para comentarios multilínea es el uso de cadenas de caracteres o literales de texto (strings) que no se asignan a ninguna variable. Aunque estas líneas no afectarán el flujo del código, pueden usarse para crear bloques de texto que actúen como comentarios.
+
+Por ejemplo:
+
+```R
+"
+Este es un comentario de varias líneas
+usando un string que no se asigna a ninguna variable.
+Esto no afectará la ejecución del código, pero sirve como comentario.
+"
+```
+
+Sin embargo, es importante tener en cuenta que el uso de strings para comentarios multilínea no es una práctica común y puede no ser tan claro como el uso de `#` al principio de cada línea para comentarios extensos.

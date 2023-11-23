@@ -1,0 +1,27 @@
+En R, la estructura de control `for` se utiliza para iterar sobre una secuencia de elementos (como vectores, listas o secuencias numéricas) y ejecutar un bloque de código para cada elemento en esa secuencia. Es una de las estructuras de control más utilizadas para la repetición de acciones.
+
+### Sintaxis del bucle `for` en R:
+
+La sintaxis general del bucle `for` es la siguiente:
+
+```R
+for (variable in secuencia) {
+  # Bloque de código a ejecutar en cada iteración
+}
+```
+
+- `variable`: Es una variable que tomará el valor de cada elemento en la secuencia en cada iteración del bucle.
+- `secuencia`: Puede ser una secuencia de números (`1:10`), un vector, una lista u otra estructura iterable en R.
+
+### Ejemplo de uso del bucle `for`:
+
+```R
+# Ejemplo de bucle for que imprime los números del 1 al 5
+for (i in 1:5) {
+  print(i)
+}
+```
+
+En este ejemplo, el bucle `for` itera sobre la secuencia de números del 1 al 5. En cada iteración, la variable `i` toma el valor del elemento actual en la secuencia y se ejecuta el bloque de código dentro del bucle, que en este caso imprime el valor de `i`.
+
+El bucle `for` es útil cuando se conoce la cantidad de iteraciones o cuando se desea realizar una acción específica para cada elemento en una secuencia. Permite ejecutar el mismo bloque de código varias veces, con la variable de iteración tomando diferentes valores en cada repetición.

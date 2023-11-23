@@ -1,0 +1,19 @@
+En R, el operador lógico `|` se utiliza para realizar una operación lógica `OR`. Este operador se emplea para evaluar múltiples condiciones y devuelve `TRUE` si al menos uno de los operandos es `TRUE`. Si ninguno de los operandos es `TRUE`, entonces el resultado será `FALSE`.
+
+### Ejemplo de uso del operador `|` (OR):
+
+```R
+# Ejemplo de operador OR (|)
+edad <- 25
+ingresos <- 20000
+
+if (edad >= 18 | ingresos >= 25000) {
+  print("Cumples con al menos una de las condiciones")
+} else {
+  print("No cumples con ninguna condición")
+}
+```
+
+En este ejemplo, si `edad` es mayor o igual a 18, o si `ingresos` son mayores o iguales a 25000, se ejecutará el bloque de código dentro del `if`. Si ninguna de estas condiciones es verdadera, se ejecutará el bloque de código dentro del `else`.
+
+El operador `|` permite evaluar condiciones múltiples y es útil en la construcción de expresiones condicionales para tomar decisiones basadas en una variedad de situaciones lógicas posibles.

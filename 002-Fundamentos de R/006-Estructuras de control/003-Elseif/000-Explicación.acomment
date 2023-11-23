@@ -1,0 +1,31 @@
+En R, la estructura `else if` se utiliza junto con `if` para evaluar múltiples condiciones de manera secuencial. Permite verificar una nueva condición si la condición del `if` anterior resulta falsa. Esto es útil cuando se necesitan comprobar distintas situaciones sucesivas.
+
+### Sintaxis del `if-else if-else` en R:
+
+```R
+if (condición1) {
+  # Bloque de código a ejecutar si la condición1 es verdadera
+} else if (condición2) {
+  # Bloque de código a ejecutar si la condición2 es verdadera
+} else {
+  # Bloque de código a ejecutar si ninguna condición es verdadera
+}
+```
+
+### Ejemplo de uso del `if-else if-else` en R:
+
+```R
+# Definición de una variable
+edad <- 25
+
+# Uso de la estructura if-else if-else para tomar decisiones
+if (edad < 18) {
+  print("Eres menor de edad")
+} else if (edad >= 18 & edad < 65) {
+  print("Eres mayor de edad pero no estás jubilado")
+} else {
+  print("Eres mayor de edad y estás jubilado")
+}
+```
+
+En este ejemplo, si la variable `edad` es menor que 18, se ejecuta el bloque de código dentro del primer `if`. Si la condición del `if` es falsa, se evalúa la condición del `else if`. Si `edad` es mayor o igual a 18 pero menor que 65, se ejecuta el bloque de código dentro del `else if`. Si ninguna de las condiciones anteriores es verdadera, se ejecuta el bloque de código dentro del `else`.
